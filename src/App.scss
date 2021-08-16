@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+}
+
+#root,
+.app {
+  height: 100%;
+}
+
+.app {
+  &__login-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__login-content {
+    text-align: center;
+  }
+}
